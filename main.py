@@ -3,17 +3,11 @@ import numpy as np
 
 
 def main():
-    df = pd.read_csv('vgsales.csv')
+    music_data = pd.read_csv('music.csv')
 
-    print(df.shape)
-    print(df.values)
-
-    print('Exporting df to csv file.')
-    df.to_csv('modified_vgsales.csv')
-
-    print('Exporting describe to csv file.')
-    df.describe().to_csv('describe.csv')
-
+#     cleaning the data
+    X = music_data.drop(columns = ['genre'])
+    print(X)
 
 if __name__ == '__main__':
     main()
