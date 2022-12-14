@@ -1,5 +1,9 @@
 # ML-Project---Music Type - Versions
 
+# Version 1.0.4,  14-Dec-2022 #
+
+* Importing statistics library
+
 # Version 1.0.3,  13-Dec-2022 #
 
 * Implementation of DecisionTreeClassifier
